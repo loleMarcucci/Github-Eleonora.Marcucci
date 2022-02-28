@@ -1,0 +1,166 @@
+body {
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 110%;
+}
+header {
+    background-color: black;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 0.5fr 3fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "logo navegacion" "redes redes";
+}
+main {
+    background-color:  rgb(238, 238, 230);
+}
+
+
+.title {
+    text-align: center;
+}
+
+.logo {
+    grid-area: logo;
+    width: 100px;
+}
+
+.navegacion {
+    display: flex;
+    width: 100%;
+    grid-area: navegacion;
+    place-self: end;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.itemNavegacion {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+
+}
+.itemNavegacion li a {
+    margin: 0px 50px;
+
+}
+
+
+
+
+
+.redes {
+    grid-area: redes;
+    background-color: white;
+}
+
+.itemRedes {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    list-style-type: none;
+    margin-top: 20px;
+    border: 3px solid black;
+    padding-top: 5px;
+
+
+}
+.itemRedes li a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px 10px ;
+
+
+}
+
+.itemNavegacion li a {
+    border-radius: 30px;
+    margin-left: auto;
+    text-decoration: none;
+    background-color: beige;
+    color: black;
+    padding: 5px 15px;
+    border-style: double;
+}
+
+
+
+
+
+.fotos {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+footer {
+    background-color: black;
+}
+
+.footerNavBar {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding-top: 10px;
+
+}
+
+footer ul li a {
+    margin-right: 20px;
+
+
+}
+
+.footer__sucursal {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer__sucursal a {
+    text-decoration: none;
+    color: black;
+    background-color: beige;
+    border-radius: 30px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-style: double;
+}
+.firma {
+    display: flex;
+    color: aliceblue;
+    font-size: medium;
+    justify-content: center;
+}
+
+
+main section form {
+    display: flex;
+    justify-content: center;
+    width: 700px;
+}
+.titleForm {
+    text-align: center;
+}
+
+.form {
+    width: 400px;
+    background-color: rgb(240, 235, 245);
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+    padding: 20px 20px
+}
+
+
+input {
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+.buttomsend {
+    margin-top: 10px;
+}
+
+
+
