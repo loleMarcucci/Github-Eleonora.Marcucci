@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../style.css">
-    <title>Sucursales</title>
+    <title>Profesionales</title>
 </head>
 <body>
     <header>
@@ -16,7 +17,7 @@
         <nav class="navegacion">
             <ul class="itemNavegacion">
                 <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../page/contacto.html">Contacto</a></li>
+                <li><a href="../page/contacto.html">Profesionales</a></li>
                 <li><a href="../page/nosotros.html">Nosotros</a></li>
                 <li><a href="../page/servicio.html">Servicios</a></li>
                 <li><a href="../page/sucursales.html">Sucursales</a></li>
@@ -32,31 +33,66 @@
                 </ul>
             </div>
     </header>
-    <main class="container-fluid">
-        <h1 class="titleForm">Completa tus datos</h1>
-        <section> 
-            <div class="form">
-                <form action="" method="post" enctype=""></form>
+    <main>
+        <section class="container">
+            <h1 class="title">Trabaja con nosotros</h1>
+            <div class="row justify-content-center">
+                <div class="col-6">
+                    <form action="" class="border border-3 p-4 my-5">
+                        <div class="form-group mb-3">
+                            <label for="">Nombre</label>
+                            <input type=" text" class="form-control">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="">Apellido</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="">Nacionalidad</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="">Direccion</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="">Edad</label>
+                            <input type="number" name="" id="" class="form-control">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="">E-mail</label>
+                            <input type="email" name="" id="" class="form-control">
+                        </div>
 
-            <label for="name">Nombre</label>
-            <input type="text" id="name" name="name">
-
+                        <div class="form-group mb-3">
+                            <label for="">Puesto al que se postula</label>
+                            <select class="form-select mt-2" aria-label="Default select example">
+                                <option selected ></option>
+                                <option value="1">Estilista Profesional</option>
+                                <option value="2">Recepcionista</option>
+                                <option value="3">Asistente</option>
+                                </select>
+                        </div>
+                        
+                        
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Experiencia Laboral</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
             
-            <label for="name">Apellido</label>
-            <input type="text" id="name" name="name">
-
+                        <div class="mb-3">
+                            <label for="formFile" class="form-label">Adjunta tu CV</label>
+                            <input class="form-control" type="file" id="formFile">
+                            </div>
             
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email">
-
-            <label for="password">Contraseña</label>
-            <input type="password" id="password" name="password">
-
-            <button type="submit">Enviar</button>
-
-            <form action=""></form>
+                            <button type="button" class="btn btn-outline-primary mb-3">Enviar</button>
+                        </div>
+            
+                    </form>
+                </div>
+                
             </div>
-        </section>
+    </section>
     </main>
     <footer>
         <section>
@@ -79,4 +115,5 @@
     </footer>
     
 </body>
+<script src="../js/bootstrap.min.js"></script>
 </html>

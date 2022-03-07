@@ -136,33 +136,7 @@ footer ul li a {
 }
 
 
-main section form {
-    display: flex;
-    justify-content: center;
-    width: 700px;
-}
-.titleForm {
-    text-align: center;
-}
 
-.form {
-    width: 400px;
-    background-color: rgb(240, 235, 245);
-    margin-left: auto;
-    margin-right: auto;
-    border: 3px solid black;
-    padding: 20px 20px
-}
-
-
-input {
-    width: 100%;
-    margin-bottom: 10px;
-
-}
-.buttomsend {
-    margin-top: 10px;
-}
 
 
 
