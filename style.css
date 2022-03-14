@@ -2,17 +2,15 @@ body {
     font-family: monospace;
     font-weight: bold;
     font-size: 110%;
+    color: aliceblue;
 }
 header {
     background-color: black;
     background-size: cover;
-    display: grid;
-    grid-template-columns: 0.5fr 3fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "logo navegacion" "redes redes";
+
 }
 main {
-    background-color:  rgb(238, 238, 230);
+    background-image: url(./asset/img/banner.jpg);
 }
 
 
@@ -21,14 +19,16 @@ main {
 }
 
 .logo {
-    grid-area: logo;
-    width: 100px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.burguer {
+    display: none;
 }
 
 .navegacion {
     display: flex;
     width: 100%;
-    grid-area: navegacion;
     place-self: end;
     justify-content: center;
     margin-bottom: 20px;
@@ -40,9 +40,10 @@ main {
     flex-direction: row;
     list-style-type: none;
 
+
 }
 .itemNavegacion li a {
-    margin: 0px 50px;
+    margin: 0px 100px;
 
 }
 
@@ -51,8 +52,7 @@ main {
 
 
 .redes {
-    grid-area: redes;
-    background-color: white;
+    
 }
 
 .itemRedes {
@@ -62,8 +62,8 @@ main {
     justify-content: end;
     list-style-type: none;
     margin-top: 20px;
-    border: 3px solid black;
     padding-top: 5px;
+    padding-bottom: 20px;
 
 
 }
@@ -76,13 +76,9 @@ main {
 }
 
 .itemNavegacion li a {
-    border-radius: 30px;
     margin-left: auto;
     text-decoration: none;
-    background-color: beige;
-    color: black;
-    padding: 5px 15px;
-    border-style: double;
+    color: aliceblue;
 }
 
 
@@ -135,7 +131,7 @@ footer ul li a {
     justify-content: center;
 }
 
-
+@media (max)
 
 
 
